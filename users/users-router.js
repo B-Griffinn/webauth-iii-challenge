@@ -6,7 +6,7 @@ const Users = require('./users.model.js');
 const mw = require('../auth/restricted-middleware.js');
 
 // restricted mw required
-router.get('/', mw, (req, res) => {
+router.get('/', (req, res) => {
     Users.find()
         .then(users => {
             if(users) {
