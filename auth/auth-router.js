@@ -52,10 +52,6 @@ router.post('/login', (req, res) => {
 });
 // END LOGIN 
 
-router.get('/logout', (req, res) => {
-    
-})
-
 
 // Create a function that generates a JWtoken
 function generateToken(user) {
