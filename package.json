@@ -1,0 +1,35 @@
+{
+  "name": "webauth-iii-challenge",
+  "version": "1.0.0",
+  "description": "authn with JWT",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-Griffinn/webauth-iii-challenge.git"
+  },
+  "author": "Benjamin Griffin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B-Griffinn/webauth-iii-challenge/issues"
+  },
+  "homepage": "https://github.com/B-Griffinn/webauth-iii-challenge#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-session-knex": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "helmet": "^3.21.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.5",
+    "pg": "^7.12.1",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
